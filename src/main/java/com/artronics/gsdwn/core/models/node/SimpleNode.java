@@ -5,9 +5,18 @@ import org.apache.log4j.Logger;
 public class SimpleNode implements Node
 {
     private final static Logger log = Logger.getLogger(SimpleNode.class);
-    private final Long id;
+    private Long id;
+
+    public SimpleNode()
+    {
+    }
 
     public SimpleNode(Long id)
+    {
+        this.id = id;
+    }
+
+    public void setId(Long id)
     {
         this.id = id;
     }
