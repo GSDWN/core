@@ -1,9 +1,9 @@
-package com.artronics.gsdwn.core.entities;
+package com.artronics.gsdwn.core.models.packet;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import static com.artronics.gsdwn.core.entities.Packet.ByteIndex.*;
+import static com.artronics.gsdwn.core.models.packet.Packet.ByteIndex.*;
 
 
 public final class SdwnPacketHelper

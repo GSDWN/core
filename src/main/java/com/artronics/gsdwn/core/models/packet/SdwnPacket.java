@@ -1,9 +1,9 @@
-package com.artronics.gsdwn.core.entities;
+package com.artronics.gsdwn.core.models.packet;
 
 import java.util.List;
 
-import static com.artronics.gsdwn.core.entities.Packet.Direction;
-import static com.artronics.gsdwn.core.entities.Packet.Type;
+import static com.artronics.gsdwn.core.models.packet.Packet.Direction;
+import static com.artronics.gsdwn.core.models.packet.Packet.Type;
 
 public class SdwnPacket
 {

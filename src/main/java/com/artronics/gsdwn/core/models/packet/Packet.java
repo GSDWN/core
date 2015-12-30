@@ -1,4 +1,4 @@
-package com.artronics.gsdwn.core.entities;
+package com.artronics.gsdwn.core.models.packet;
 
 public interface Packet
 {
