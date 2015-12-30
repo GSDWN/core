@@ -1,9 +1,11 @@
 package com.artronics.gsdwn.core.entities;
 
+import com.artronics.gsdwn.core.models.node.Node;
+
 import javax.persistence.*;
 
 @MappedSuperclass
-public abstract class AbstractNode
+public abstract class AbstractNode implements Node
 {
     protected Long id;
     protected Long address;
@@ -21,6 +23,7 @@ public abstract class AbstractNode
         this.deviceId = deviceId;
     }
 
+    @Override
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id",nullable = false,unique = true)
